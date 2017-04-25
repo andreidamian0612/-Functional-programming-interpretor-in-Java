@@ -313,7 +313,7 @@ public class Tree {
         }
     }
 
-    public static void evalFor(Node root) {
+    public static void evalFor(Node root) {//eval pt for
         Node fiu0 = root.getChildren().get(0);//i=0
         Node fiu1 = root.getChildren().get(1);//i<n
         Node fiu2 = root.getChildren().get(2);//i++
